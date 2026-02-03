@@ -1,0 +1,1108 @@
+[
+    {
+        "id": 58236,
+        "title": "PPSC Paper 1 (PMS 2019)",
+        "questions": [
+            {
+                "q": "Kurt Waldheim was an Austrian diplomat who served as the ___ secretary general of the UN.",
+                "id": 1,
+                "options": [
+                    "2nd",
+                    "3rd",
+                    "4th",
+                    "5th"
+                ],
+                "correct": "4th"
+            },
+            {
+                "q": "The International Court of Justice (ICJ) is comprised of ___ judges.",
+                "id": 2,
+                "options": [
+                    "9",
+                    "15",
+                    "21",
+                    "11"
+                ],
+                "correct": "15"
+            },
+            {
+                "q": "International Mother Language is celebrated on:",
+                "id": 3,
+                "options": [
+                    "21 February",
+                    "23 March",
+                    "14 August",
+                    "25 December"
+                ],
+                "correct": "21 February"
+            },
+            {
+                "q": "Which among the given options is the capital of Kazakhstan?",
+                "id": 4,
+                "options": [
+                    "Almaty",
+                    "Astana",
+                    "Bishkek",
+                    "Baku"
+                ],
+                "correct": "Astana"
+            },
+            {
+                "q": "Shanghai Cooperation Organization (SCO) was established in:",
+                "id": 5,
+                "options": [
+                    "1999",
+                    "2001",
+                    "2005",
+                    "1995"
+                ],
+                "correct": "2001"
+            },
+            {
+                "q": "Amnesty International, a human rights organization, was founded in:",
+                "id": 6,
+                "options": [
+                    "1945",
+                    "1961",
+                    "1970",
+                    "1951"
+                ],
+                "correct": "1961"
+            },
+            {
+                "q": "When did Pakistan defeat India in the ICC Champions Trophy final?",
+                "id": 7,
+                "options": [
+                    "18 June 2017",
+                    "20 June 2017",
+                    "15 June 2016",
+                    "18 June 2015"
+                ],
+                "correct": "18 June 2017"
+            },
+            {
+                "q": "Michael Jackson (King of Pop) died in:",
+                "id": 8,
+                "options": [
+                    "June 2008",
+                    "June 2009",
+                    "May 2010",
+                    "July 2009"
+                ],
+                "correct": "June 2009"
+            },
+            {
+                "q": "Who is known as the \"Poet of Beauty\"?",
+                "id": 9,
+                "options": [
+                    "William Wordsworth",
+                    "John Keats",
+                    "Lord Byron",
+                    "P.B. Shelley"
+                ],
+                "correct": "John Keats"
+            },
+            {
+                "q": "World Food Program (WFP) was created at the behest of:",
+                "id": 10,
+                "options": [
+                    "John F. Kennedy",
+                    "Dwight Eisenhower",
+                    "Franklin Roosevelt",
+                    "Richard Nixon"
+                ],
+                "correct": "Dwight Eisenhower"
+            },
+            {
+                "q": "The concept of \"Asabiyya\" (social solidarity) was given by:",
+                "id": 11,
+                "options": [
+                    "Ibn-e-Sina",
+                    "Ibn Khaldun",
+                    "Al-Ghazali",
+                    "Shah Waliullah"
+                ],
+                "correct": "Ibn Khaldun"
+            },
+            {
+                "q": "How many countries are there in Asia?",
+                "id": 12,
+                "options": [
+                    "45",
+                    "49",
+                    "52",
+                    "47"
+                ],
+                "correct": "49"
+            },
+            {
+                "q": "Paris Climate Agreement was adopted in:",
+                "id": 13,
+                "options": [
+                    "2012",
+                    "2015",
+                    "2016",
+                    "2014"
+                ],
+                "correct": "2015"
+            },
+            {
+                "q": "United Nations Conference on Environment and Development (RIO Summit) was held in:",
+                "id": 14,
+                "options": [
+                    "1990",
+                    "1992",
+                    "1995",
+                    "1988"
+                ],
+                "correct": "1992"
+            },
+            {
+                "q": "World Day to Combat Desertification is observed on:",
+                "id": 15,
+                "options": [
+                    "5 June",
+                    "17 June",
+                    "11 July",
+                    "22 April"
+                ],
+                "correct": "17 June"
+            },
+            {
+                "q": "The largest famine hit Ethiopia in:",
+                "id": 16,
+                "options": [
+                    "1975",
+                    "1983",
+                    "1990",
+                    "1980"
+                ],
+                "correct": "1983"
+            },
+            {
+                "q": "Indian Railways started operation in:",
+                "id": 17,
+                "options": [
+                    "1850",
+                    "1853",
+                    "1857",
+                    "1860"
+                ],
+                "correct": "1853"
+            },
+            {
+                "q": "Who was the first Governor-General of the State Bank of Pakistan?",
+                "id": 18,
+                "options": [
+                    "Zahid Hussain",
+                    "Ishrat Hussain",
+                    "Ghulam Muhammad",
+                    "Liaquat Ali Khan"
+                ],
+                "correct": "Zahid Hussain"
+            },
+            {
+                "q": "When was Balochistan given the status of a province?",
+                "id": 19,
+                "options": [
+                    "1947",
+                    "1970",
+                    "1955",
+                    "1973"
+                ],
+                "correct": "1970"
+            },
+            {
+                "q": "Who was the penultimate (second to last) Viceroy of British India?",
+                "id": 20,
+                "options": [
+                    "Lord Mountbatten",
+                    "Lord Wavell",
+                    "Lord Curzon",
+                    "Lord Irwin"
+                ],
+                "correct": "Lord Wavell"
+            },
+            {
+                "q": "\"Jinnah, Pakistan and Islamic Identity\" was written by:",
+                "id": 21,
+                "options": [
+                    "Stanley Wolpert",
+                    "Akbar S. Ahmad",
+                    "Ayesha Jalal",
+                    "I.H. Qureshi"
+                ],
+                "correct": "Akbar S. Ahmad"
+            },
+            {
+                "q": "Taj Mahal's construction commenced in:",
+                "id": 22,
+                "options": [
+                    "1620",
+                    "1632",
+                    "1648",
+                    "1653"
+                ],
+                "correct": "1632"
+            },
+            {
+                "q": "Katas Raj Temples are located in which district?",
+                "id": 23,
+                "options": [
+                    "Jhelum",
+                    "Chakwal",
+                    "Rawalpindi",
+                    "Attock"
+                ],
+                "correct": "Chakwal"
+            },
+            {
+                "q": "Nawab Malik Amir Mohammad Khan (Nawab of Kalabagh) was from:",
+                "id": 24,
+                "options": [
+                    "Sargodha",
+                    "Mianwali",
+                    "Bhakkar",
+                    "Khushab"
+                ],
+                "correct": "Mianwali"
+            },
+            {
+                "q": "Attock Fort was built during the reign of:",
+                "id": 25,
+                "options": [
+                    "Babur",
+                    "Akbar",
+                    "Shah Jahan",
+                    "Humayun"
+                ],
+                "correct": "Akbar"
+            },
+            {
+                "q": "Growth rate of Pakistan in 2018 was:",
+                "id": 26,
+                "options": [
+                    "4.5%",
+                    "5.8%",
+                    "3.2%",
+                    "6.1%"
+                ],
+                "correct": "5.8%"
+            },
+            {
+                "q": "IRSA (Indus River System Authority) was established in:",
+                "id": 27,
+                "options": [
+                    "1991",
+                    "1992",
+                    "1995",
+                    "1988"
+                ],
+                "correct": "1992"
+            },
+            {
+                "q": "Sindh Sagar Doab lies between which rivers?",
+                "id": 28,
+                "options": [
+                    "Jhelum and Chenab",
+                    "Indus and Jhelum",
+                    "Ravi and Sutlej",
+                    "Chenab and Ravi"
+                ],
+                "correct": "Indus and Jhelum"
+            },
+            {
+                "q": "According to IMF, Pakistan is ranked ___ in water shortage.",
+                "id": 29,
+                "options": [
+                    "1st",
+                    "3rd",
+                    "5th",
+                    "10th"
+                ],
+                "correct": "3rd"
+            },
+            {
+                "q": "Which city was hit by a major earthquake in 1935?",
+                "id": 30,
+                "options": [
+                    "Peshawar",
+                    "Quetta",
+                    "Muzaffarabad",
+                    "Ziarat"
+                ],
+                "correct": "Quetta"
+            },
+            {
+                "q": "Which province has Uch Gas Field?",
+                "id": 31,
+                "options": [
+                    "Sindh",
+                    "Balochistan",
+                    "Punjab",
+                    "KPK"
+                ],
+                "correct": "Balochistan"
+            },
+            {
+                "q": "Second largest gas field in Pakistan (OGDCL)?",
+                "id": 32,
+                "options": [
+                    "Sui",
+                    "Qadirpur Gas Field",
+                    "Kandhkot",
+                    "Sakessar"
+                ],
+                "correct": "Qadirpur Gas Field"
+            },
+            {
+                "q": "High-tech exports of Pakistan stand at:",
+                "id": 33,
+                "options": [
+                    "2.5%",
+                    "0.7%",
+                    "1.2%",
+                    "5.0%"
+                ],
+                "correct": "0.7%"
+            },
+            {
+                "q": "Who secured Gwadar from Oman?",
+                "id": 34,
+                "options": [
+                    "Ayub Khan",
+                    "Feroz Khan Noon",
+                    "Liaquat Ali Khan",
+                    "Z.A. Bhutto"
+                ],
+                "correct": "Feroz Khan Noon"
+            },
+            {
+                "q": "Kartarpur Corridor links to which Gurdwara?",
+                "id": 35,
+                "options": [
+                    "Panja Sahib",
+                    "Darbar Sahib",
+                    "Nankana Sahib",
+                    "Dera Sahib"
+                ],
+                "correct": "Darbar Sahib"
+            },
+            {
+                "q": "Pakistan launched National Program for Family Planning in:",
+                "id": 36,
+                "options": [
+                    "1990",
+                    "1994",
+                    "1978",
+                    "1985"
+                ],
+                "correct": "1994"
+            },
+            {
+                "q": "Longest serving Chairman of Senate?",
+                "id": 37,
+                "options": [
+                    "Raza Rabbani",
+                    "Wasim Sajjad",
+                    "Sadiq Sanjrani",
+                    "Farooq Naek"
+                ],
+                "correct": "Wasim Sajjad"
+            },
+            {
+                "q": "In 2019, Pakistan's population % of world was:",
+                "id": 38,
+                "options": [
+                    "3.1%",
+                    "2.65%",
+                    "4.0%",
+                    "1.5%"
+                ],
+                "correct": "2.65%"
+            },
+            {
+                "q": "Current Secretary General of SAARC?",
+                "id": 39,
+                "options": [
+                    "Q.A. Rahim",
+                    "Md. Golam Sarwar",
+                    "Amjad Hussain",
+                    "Esala Weerakoon"
+                ],
+                "correct": "Md. Golam Sarwar"
+            },
+            {
+                "q": "Current President of Azad Jammu Kashmir?",
+                "id": 40,
+                "options": [
+                    "Masood Khan",
+                    "Barrister Sultan Mehmood Chaudhry",
+                    "Yaqoob Khan",
+                    "Raja Farooq Haider"
+                ],
+                "correct": "Barrister Sultan Mehmood Chaudhry"
+            },
+            {
+                "q": "Current Chief of Air Staff (PAF)?",
+                "id": 41,
+                "options": [
+                    "Sohail Aman",
+                    "Zaheer Ahmad Babar Sidhu",
+                    "Mujahid Anwar Khan",
+                    "Rao Qamar Suleman"
+                ],
+                "correct": "Zaheer Ahmad Babar Sidhu"
+            },
+            {
+                "q": "Kirthar Range resides mostly in which province?",
+                "id": 42,
+                "options": [
+                    "Balochistan",
+                    "Sindh",
+                    "Punjab",
+                    "KPK"
+                ],
+                "correct": "Sindh"
+            },
+            {
+                "q": "Length of Karakoram Highway (KKH) is:",
+                "id": 43,
+                "options": [
+                    "500 miles",
+                    "810 miles",
+                    "1000 miles",
+                    "1300 miles"
+                ],
+                "correct": "810 miles"
+            },
+            {
+                "q": "How many layers does Earth's atmosphere authority have?",
+                "id": 44,
+                "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "correct": "5"
+            },
+            {
+                "q": "Less than ___% of Earth's water is fresh.",
+                "id": 45,
+                "options": [
+                    "3%",
+                    "1%",
+                    "5%",
+                    "0.5%"
+                ],
+                "correct": "1%"
+            },
+            {
+                "q": "Batura Glacier is located in:",
+                "id": 46,
+                "options": [
+                    "India",
+                    "Pakistan",
+                    "China",
+                    "Nepal"
+                ],
+                "correct": "Pakistan"
+            },
+            {
+                "q": "Circumference of Earth is around:",
+                "id": 47,
+                "options": [
+                    "35000 km",
+                    "40075 km",
+                    "50000 km",
+                    "25000 km"
+                ],
+                "correct": "40075 km"
+            },
+            {
+                "q": "Vitamin containing traces of Selenium?",
+                "id": 48,
+                "options": [
+                    "Vitamin A",
+                    "Vitamin E",
+                    "Vitamin C",
+                    "Vitamin D"
+                ],
+                "correct": "Vitamin E"
+            },
+            {
+                "q": "Minimum time a mechanical stopwatch measures?",
+                "id": 49,
+                "options": [
+                    "1 s",
+                    "0.1 s",
+                    "0.01 s",
+                    "0.5 s"
+                ],
+                "correct": "0.1 s"
+            },
+            {
+                "q": "Event of an exploding star is called:",
+                "id": 50,
+                "options": [
+                    "Black Hole",
+                    "Supernova",
+                    "Nebula",
+                    "Galaxy"
+                ],
+                "correct": "Supernova"
+            },
+            {
+                "q": "Instrument suitable for internal diameter of test tube?",
+                "id": 51,
+                "options": [
+                    "Screw Gauge",
+                    "Vernier Callipers",
+                    "Meter Rule",
+                    "Spherometer"
+                ],
+                "correct": "Vernier Callipers"
+            },
+            {
+                "q": "Crude Oil is heated in furnace up to:",
+                "id": 52,
+                "options": [
+                    "200 C",
+                    "350 C to 400 C",
+                    "100 C",
+                    "500 C"
+                ],
+                "correct": "350 C to 400 C"
+            },
+            {
+                "q": "Organelle involved in Lipid synthesis?",
+                "id": 53,
+                "options": [
+                    "Rough ER",
+                    "Smooth ER",
+                    "Golgi Body",
+                    "Ribosomes"
+                ],
+                "correct": "Smooth ER"
+            },
+            {
+                "q": "Muhammad Ibn Zakariya Al-Razi (Rhazes) was from:",
+                "id": 54,
+                "options": [
+                    "Iraq",
+                    "Iran",
+                    "Syria",
+                    "Morocco"
+                ],
+                "correct": "Iran"
+            },
+            {
+                "q": "\"Al-Qanun fi at-tibb\" was written by:",
+                "id": 55,
+                "options": [
+                    "Al-Razi",
+                    "Ibn-e-Sina (Avicenna)",
+                    "Ibn Khaldun",
+                    "Al-Farabi"
+                ],
+                "correct": "Ibn-e-Sina (Avicenna)"
+            },
+            {
+                "q": "Who discovered Sunspots?",
+                "id": 56,
+                "options": [
+                    "Newton",
+                    "Galileo",
+                    "Copernicus",
+                    "Kepler"
+                ],
+                "correct": "Galileo"
+            },
+            {
+                "q": "Inventor of bifocal spectacles?",
+                "id": 57,
+                "options": [
+                    "Thomas Edison",
+                    "Benjamin Franklin",
+                    "Alexander Bell",
+                    "James Watt"
+                ],
+                "correct": "Benjamin Franklin"
+            },
+            {
+                "q": "Mars has ___ natural satellites.",
+                "id": 58,
+                "options": [
+                    "One",
+                    "Two",
+                    "Three",
+                    "Zero"
+                ],
+                "correct": "Two"
+            },
+            {
+                "q": "Max Planck won Nobel Prize in Physics (1918) for:",
+                "id": 59,
+                "options": [
+                    "Relativity",
+                    "Energy Quantum",
+                    "Photoelectric effect",
+                    "Radioactivity"
+                ],
+                "correct": "Energy Quantum"
+            },
+            {
+                "q": "Instrument to measure liquid precipitation?",
+                "id": 60,
+                "options": [
+                    "Barometer",
+                    "Rain Gauge",
+                    "Hygrometer",
+                    "Anemometer"
+                ],
+                "correct": "Rain Gauge"
+            },
+            {
+                "q": "Parsec is a unit used to measure:",
+                "id": 61,
+                "options": [
+                    "Time",
+                    "Distance",
+                    "Speed",
+                    "Mass"
+                ],
+                "correct": "Distance"
+            },
+            {
+                "q": "Solar eclipse occurs when:",
+                "id": 62,
+                "options": [
+                    "Earth is between Sun and Moon",
+                    "Moon is between Sun and Earth",
+                    "Sun is between Moon and Earth",
+                    "None of these"
+                ],
+                "correct": "Moon is between Sun and Earth"
+            },
+            {
+                "q": "Camera lens forms an image which is:",
+                "id": 63,
+                "options": [
+                    "Virtual, Upright",
+                    "Real, Inverted, Diminished",
+                    "Virtual, Inverted",
+                    "Real, Upright"
+                ],
+                "correct": "Real, Inverted, Diminished"
+            },
+            {
+                "q": "When NaHCO3 is heated, it produces:",
+                "id": 64,
+                "options": [
+                    "O2",
+                    "CO2",
+                    "H2",
+                    "N2"
+                ],
+                "correct": "CO2"
+            },
+            {
+                "q": "Stoma closes when guard cells:",
+                "id": 65,
+                "options": [
+                    "Gain water",
+                    "Lose water",
+                    "Become green",
+                    "None of these"
+                ],
+                "correct": "Lose water"
+            },
+            {
+                "q": "Iron/Steel structures are damaged by:",
+                "id": 66,
+                "options": [
+                    "Oxygen",
+                    "Sulphur dioxide",
+                    "Nitrogen",
+                    "Carbon monoxide"
+                ],
+                "correct": "Sulphur dioxide"
+            },
+            {
+                "q": "Inflammation of liver is called:",
+                "id": 67,
+                "options": [
+                    "Arthritis",
+                    "Hepatitis",
+                    "Gastritis",
+                    "Bronchitis"
+                ],
+                "correct": "Hepatitis"
+            },
+            {
+                "q": "Speed of sound in air?",
+                "id": 68,
+                "options": [
+                    "332 m/s",
+                    "1235 km/h",
+                    "500 km/h",
+                    "1000 km/h"
+                ],
+                "correct": "1235 km/h"
+            },
+            {
+                "q": "Enzymes are basically:",
+                "id": 69,
+                "options": [
+                    "Carbohydrates",
+                    "Proteins",
+                    "Lipids",
+                    "Minerals"
+                ],
+                "correct": "Proteins"
+            },
+            {
+                "q": "Lifespan of Red Blood Cells (RBC)?",
+                "id": 70,
+                "options": [
+                    "60 days",
+                    "120 days",
+                    "180 days",
+                    "365 days"
+                ],
+                "correct": "120 days"
+            },
+            {
+                "q": "Percentage of water in human brain?",
+                "id": 71,
+                "options": [
+                    "50%",
+                    "73%",
+                    "90%",
+                    "65%"
+                ],
+                "correct": "73%"
+            },
+            {
+                "q": "Nitrogen available to primary producers as:",
+                "id": 72,
+                "options": [
+                    "Ammonia",
+                    "Nitrates",
+                    "Urea",
+                    "Nitrite"
+                ],
+                "correct": "Nitrates"
+            },
+            {
+                "q": "Parthenocarpy is production of ___ fruit.",
+                "id": 73,
+                "options": [
+                    "Sweet",
+                    "Seedless",
+                    "Small",
+                    "Large"
+                ],
+                "correct": "Seedless"
+            },
+            {
+                "q": "Dengue is caused by ___ mosquito.",
+                "id": 74,
+                "options": [
+                    "Anopheles",
+                    "Aedes",
+                    "Culex",
+                    "None of these"
+                ],
+                "correct": "Aedes"
+            },
+            {
+                "q": "Tube joining kidneys and bladder?",
+                "id": 75,
+                "options": [
+                    "Urethra",
+                    "Ureter",
+                    "Bronchi",
+                    "Villi"
+                ],
+                "correct": "Ureter"
+            },
+            {
+                "q": "Edward Jenner developed world's first vaccine in:",
+                "id": 76,
+                "options": [
+                    "1850",
+                    "1796",
+                    "1900",
+                    "1820"
+                ],
+                "correct": "1796"
+            },
+            {
+                "q": "Pancreatic juice aids digestion in:",
+                "id": 77,
+                "options": [
+                    "Stomach",
+                    "Duodenum",
+                    "Liver",
+                    "Esophagus"
+                ],
+                "correct": "Duodenum"
+            },
+            {
+                "q": "Transmitted first radio signal through air?",
+                "id": 78,
+                "options": [
+                    "Bell",
+                    "Marconi",
+                    "Tesla",
+                    "Hertz"
+                ],
+                "correct": "Marconi"
+            },
+            {
+                "q": "Villi are small finger-like structures in:",
+                "id": 79,
+                "options": [
+                    "Large intestine",
+                    "Small intestine",
+                    "Stomach",
+                    "Lungs"
+                ],
+                "correct": "Small intestine"
+            },
+            {
+                "q": "Yeast is essential in bread making because it produces:",
+                "id": 80,
+                "options": [
+                    "Alcohol",
+                    "Carbon dioxide",
+                    "Sugar",
+                    "Oxygen"
+                ],
+                "correct": "Carbon dioxide"
+            },
+            {
+                "q": "After fertilization, fruit develops from:",
+                "id": 81,
+                "options": [
+                    "Stigma",
+                    "Ovary",
+                    "Style",
+                    "Petal"
+                ],
+                "correct": "Ovary"
+            },
+            {
+                "q": "Rickets is caused by deficiency of:",
+                "id": 82,
+                "options": [
+                    "Vitamin A",
+                    "Vitamin D",
+                    "Vitamin K",
+                    "Vitamin B"
+                ],
+                "correct": "Vitamin D"
+            },
+            {
+                "q": "Responsible for clotting of blood?",
+                "id": 83,
+                "options": [
+                    "RBC",
+                    "Platelets",
+                    "WBC",
+                    "Plasma"
+                ],
+                "correct": "Platelets"
+            },
+            {
+                "q": "Process of \"Mastication\" is:",
+                "id": 84,
+                "options": [
+                    "Digestion",
+                    "Chewing",
+                    "Breathing",
+                    "Sweating"
+                ],
+                "correct": "Chewing"
+            },
+            {
+                "q": "Temperature at which most foodborne bacteria die?",
+                "id": 85,
+                "options": [
+                    "100 F",
+                    "149 F",
+                    "80 F",
+                    "212 F"
+                ],
+                "correct": "149 F"
+            },
+            {
+                "q": "Color of Oxyhaemoglobin?",
+                "id": 86,
+                "options": [
+                    "Dark Red",
+                    "Bright Red",
+                    "Blue",
+                    "Purple"
+                ],
+                "correct": "Bright Red"
+            },
+            {
+                "q": "Pepsinogen is converted into stomach in:",
+                "id": 87,
+                "options": [
+                    "Trypsin",
+                    "Pepsin",
+                    "Bile",
+                    "Lipase"
+                ],
+                "correct": "Pepsin"
+            },
+            {
+                "q": "Bit is also called:",
+                "id": 88,
+                "options": [
+                    "Byte",
+                    "Binary Digit",
+                    "Logic",
+                    "Circuit"
+                ],
+                "correct": "Binary Digit"
+            },
+            {
+                "q": "PROM chips are programmed using:",
+                "id": 89,
+                "options": [
+                    "PROM Programmer",
+                    "Scanner",
+                    "Mouse",
+                    "CPU"
+                ],
+                "correct": "PROM Programmer"
+            },
+            {
+                "q": "CD-ROM can store up to:",
+                "id": 90,
+                "options": [
+                    "500 mb",
+                    "680 mb",
+                    "1 GB",
+                    "250 mb"
+                ],
+                "correct": "680 mb"
+            },
+            {
+                "q": "Equation solution that is not a valid solution:",
+                "id": 91,
+                "options": [
+                    "Real",
+                    "Extraneous",
+                    "Imaginary",
+                    "Linear"
+                ],
+                "correct": "Extraneous"
+            },
+            {
+                "q": "Number of elements in power set {1, 2, 3}?",
+                "id": 92,
+                "options": [
+                    "3",
+                    "8",
+                    "6",
+                    "9"
+                ],
+                "correct": "8"
+            },
+            {
+                "q": "How many subsets does an empty subset have?",
+                "id": 93,
+                "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "4"
+                ],
+                "correct": "1"
+            },
+            {
+                "q": "Triangle with two congruent sides?",
+                "id": 94,
+                "options": [
+                    "Scalene",
+                    "Isosceles",
+                    "Equilateral",
+                    "Right"
+                ],
+                "correct": "Isosceles"
+            },
+            {
+                "q": "Sum of all values divided by number of values?",
+                "id": 95,
+                "options": [
+                    "Median",
+                    "Mean",
+                    "Mode",
+                    "Range"
+                ],
+                "correct": "Mean"
+            },
+            {
+                "q": "Representation of frequency distribution by rectangles?",
+                "id": 96,
+                "options": [
+                    "Bar Chart",
+                    "Histogram",
+                    "Pie Chart",
+                    "Scatter Plot"
+                ],
+                "correct": "Histogram"
+            },
+            {
+                "q": "Horse runs twice around a ground (8km), one side of square ground is:",
+                "id": 97,
+                "options": [
+                    "2 km",
+                    "1 km",
+                    "4 km",
+                    "0.5 km"
+                ],
+                "correct": "1 km"
+            },
+            {
+                "q": "Medians of a triangle cut each other in ratio:",
+                "id": 98,
+                "options": [
+                    "1 : 1",
+                    "2 : 1",
+                    "3 : 2",
+                    "1 : 2"
+                ],
+                "correct": "2 : 1"
+            },
+            {
+                "q": "Literacy rate in Muslim world is:",
+                "id": 99,
+                "options": [
+                    "100%",
+                    "40%",
+                    "60%",
+                    "80%"
+                ],
+                "correct": "40%"
+            },
+            {
+                "q": "Title of Hazrat Ibrahim (A.S)?",
+                "id": 100,
+                "options": [
+                    "Saif Ullah",
+                    "Khalil Ullah",
+                    "Rooh Ullah",
+                    "Khalil-ur-Rehman"
+                ],
+                "correct": "Khalil Ullah"
+            }
+        ]
+    }
+]

@@ -1,0 +1,399 @@
+ScreenManager:
+    HomeScreen:
+    AddPaperScreen:
+    ExamConfigScreen:
+    ExamScreen:
+    ResultScreen:
+    StudyScreen:
+    SearchScreen:
+    ReviewScreen:
+    BookmarksScreen:
+    StatsScreen:
+
+# --- CUSTOM DASHBOARD CARD ---
+<DashboardCard@MDCard>:
+    orientation: "vertical"
+    padding: 0
+    spacing: 0
+    radius: [15,]
+    ripple_behavior: True
+    md_bg_color: 1, 1, 1, 1
+    elevation: 3
+    size_hint_y: None
+    height: dp(130)
+    
+    MDRelativeLayout:
+        MDIcon:
+            id: card_icon
+            icon: ""
+            halign: "center"
+            font_size: "40sp"
+            theme_text_color: "Custom"
+            text_color: app.theme_cls.primary_color
+            pos_hint: {"center_x": .5, "center_y": .6}
+        MDLabel:
+            id: card_text
+            text: ""
+            halign: "center"
+            theme_text_color: "Primary"
+            font_style: "Subtitle2"
+            bold: True
+            pos_hint: {"center_x": .5, "center_y": .25}
+
+<HomeScreen>:
+    name: 'home'
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 0.96, 0.96, 0.96, 1
+
+        MDTopAppBar:
+            title: "PPSC Ustad"
+            anchor_title: "left"
+            elevation: 0
+            right_action_items: [["magnify", lambda x: app.prepare_search_mode()], ["information-outline", lambda x: app.show_about()]]
+            md_bg_color: app.theme_cls.primary_color
+            specific_text_color: 1, 1, 1, 1
+
+        ScrollView:
+            MDBoxLayout:
+                orientation: 'vertical'
+                padding: dp(20)
+                spacing: dp(20)
+                adaptive_height: True
+                
+                MDCard:
+                    size_hint_y: None
+                    height: dp(100)
+                    radius: [15,]
+                    md_bg_color: 1, 1, 1, 1
+                    elevation: 1
+                    padding: dp(15)
+                    orientation: "horizontal"
+                    spacing: dp(20)
+                    
+                    Image:
+                        source: 'assets/logo.png'
+                        size_hint: None, None
+                        size: dp(70), dp(70)
+                        pos_hint: {'center_y': 0.5}
+                        fit_mode: "contain"
+                    
+                    MDBoxLayout:
+                        orientation: "vertical"
+                        pos_hint: {'center_y': 0.5}
+                        adaptive_height: True
+                        MDLabel:
+                            text: "Welcome, Haroon!"
+                            font_style: "H6"
+                            bold: True
+                            theme_text_color: "Primary"
+                        MDLabel:
+                            text: "Let's crack the exam today."
+                            font_style: "Caption"
+                            theme_text_color: "Secondary"
+
+                MDLabel:
+                    text: "Quick Actions"
+                    font_style: "Subtitle1"
+                    bold: True
+                    theme_text_color: "Primary"
+                    size_hint_y: None
+                    height: dp(30)
+
+                MDGridLayout:
+                    cols: 2
+                    spacing: dp(15)
+                    adaptive_height: True
+                    
+                    DashboardCard:
+                        on_release: app.prepare_study_mode()
+                        on_kv_post: 
+                            self.ids.card_icon.icon = "book-open-page-variant"
+                            self.ids.card_text.text = "Study Mode"
+                    DashboardCard:
+                        on_release: app.prepare_exam_config()
+                        on_kv_post: 
+                            self.ids.card_icon.icon = "pencil-box-multiple"
+                            self.ids.card_text.text = "Take Exam"
+                    DashboardCard:
+                        on_release: app.prepare_bookmarks()
+                        on_kv_post: 
+                            self.ids.card_icon.icon = "heart"
+                            self.ids.card_text.text = "Saved Qs"
+                    DashboardCard:
+                        on_release: app.prepare_stats()
+                        on_kv_post: 
+                            self.ids.card_icon.icon = "chart-bar"
+                            self.ids.card_text.text = "Progress"
+                    DashboardCard:
+                        on_release: root.manager.current = 'add_paper'
+                        on_kv_post: 
+                            self.ids.card_icon.icon = "file-document-plus"
+                            self.ids.card_text.text = "Add Paper"
+
+        Widget: 
+            size_hint_y: None
+            height: dp(20)
+
+<ExamScreen>:
+    name: 'exam'
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 0.98, 0.98, 0.98, 1
+        
+        MDBoxLayout:
+            size_hint_y: None
+            height: dp(60)
+            padding: dp(15)
+            md_bg_color: app.theme_cls.primary_color
+            spacing: dp(10)
+            MDLabel:
+                id: progress_label
+                text: "1 / 20"
+                theme_text_color: "Custom"
+                text_color: 1, 1, 1, 1
+                bold: True
+                size_hint_x: 0.3
+            MDLabel:
+                id: timer_label
+                text: "55s"
+                halign: "center"
+                theme_text_color: "Custom"
+                text_color: 1, 1, 1, 1
+                bold: True
+                font_style: "H6"
+            MDIconButton:
+                icon: "volume-high"
+                theme_text_color: "Custom"
+                text_color: 1, 1, 1, 1
+                on_release: app.speak_question()
+            MDIconButton:
+                id: bookmark_btn
+                icon: "heart-outline"
+                theme_text_color: "Custom"
+                text_color: 1, 1, 1, 1
+                on_release: app.toggle_current_bookmark()
+
+        ScrollView:
+            MDBoxLayout:
+                orientation: 'vertical'
+                padding: dp(20)
+                spacing: dp(20)
+                adaptive_height: True
+                MDCard:
+                    orientation: "vertical"
+                    padding: dp(20)
+                    spacing: dp(10)
+                    radius: [10,]
+                    elevation: 2
+                    md_bg_color: 1, 1, 1, 1
+                    adaptive_height: True
+                    MDLabel:
+                        text: "Question:"
+                        font_style: "Caption"
+                        theme_text_color: "Secondary"
+                    MDLabel:
+                        id: question_text
+                        text: "Loading..."
+                        font_style: "H6"
+                        theme_text_color: "Primary"
+                        adaptive_height: True
+                MDBoxLayout:
+                    orientation: 'vertical'
+                    spacing: dp(15)
+                    id: options_box
+                    adaptive_height: True
+
+        MDFillRoundFlatButton:
+            id: next_btn
+            text: "NEXT QUESTION"
+            font_size: "18sp"
+            size_hint_x: 0.9
+            pos_hint: {"center_x": 0.5}
+            disabled: True
+            on_release: app.next_question()
+        Widget: 
+            size_hint_y: None
+            height: dp(10)
+
+<AddPaperScreen>:
+    name: 'add_paper'
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1, 1, 1, 1
+        MDTopAppBar:
+            title: "Add Paper"
+            left_action_items: [["arrow-left", lambda x: app.go_home()]]
+            elevation: 0
+        MDBoxLayout:
+            orientation: 'vertical'
+            padding: dp(20)
+            spacing: dp(20)
+            MDTextField:
+                id: paper_title
+                hint_text: "Paper Title"
+                mode: "rectangle"
+            MDLabel:
+                text: "Paste Content:"
+                theme_text_color: "Secondary"
+                font_style: "Caption"
+            MDTextField:
+                id: raw_text
+                hint_text: "Q: ...\nA)...\nCorrect: A"
+                mode: "rectangle"
+                multiline: True
+                size_hint_y: 0.6
+            MDFillRoundFlatButton:
+                text: "SAVE"
+                size_hint_x: 1
+                on_release: app.save_paper_from_ui()
+
+<ExamConfigScreen>:
+    name: 'exam_config'
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1, 1, 1, 1
+        MDTopAppBar:
+            title: "Configure Exam"
+            left_action_items: [["arrow-left", lambda x: app.go_home()]]
+            elevation: 0
+        ScrollView:
+            MDList:
+                id: paper_selection_list
+                padding: dp(10)
+        MDBoxLayout:
+            padding: dp(20)
+            adaptive_height: True
+            MDFillRoundFlatButton:
+                text: "START EXAM"
+                font_size: "18sp"
+                size_hint_x: 1
+                on_release: app.start_exam()
+
+<ResultScreen>:
+    name: 'result'
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1, 1, 1, 1
+        MDBoxLayout:
+            orientation: "vertical"
+            size_hint_y: 0.4
+            md_bg_color: app.theme_cls.primary_color
+            padding: dp(20)
+            spacing: dp(10)
+            MDIcon:
+                icon: "trophy"
+                halign: "center"
+                font_size: "60sp"
+                theme_text_color: "Custom"
+                text_color: 1, 1, 0.8, 1
+            MDLabel:
+                id: score_label
+                text: "85%"
+                halign: "center"
+                font_style: "H3"
+                bold: True
+                theme_text_color: "Custom"
+                text_color: 1, 1, 1, 1
+            MDLabel:
+                text: "Excellent Work!"
+                halign: "center"
+                theme_text_color: "Custom"
+                text_color: 1, 1, 1, 0.8
+        MDBoxLayout:
+            orientation: "vertical"
+            padding: dp(30)
+            spacing: dp(20)
+            MDLabel:
+                id: stats_label
+                text: "Correct: 10 | Wrong: 2"
+                halign: "center"
+            MDRectangleFlatButton:
+                id: review_btn
+                text: "REVIEW MISTAKES"
+                size_hint_x: 1
+                on_release: app.prepare_review_mode()
+            MDFillRoundFlatButton:
+                text: "BACK TO HOME"
+                size_hint_x: 1
+                on_release: app.go_home()
+        Widget:
+
+<ReviewScreen>:
+    name: 'review'
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1, 1, 1, 1
+        MDTopAppBar:
+            title: "Mistakes"
+            left_action_items: [["arrow-left", lambda x: app.go_to_result()]]
+            elevation: 0
+        ScrollView:
+            MDList:
+                id: review_list
+                padding: dp(10)
+
+<BookmarksScreen>:
+    name: 'bookmarks'
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1, 1, 1, 1
+        MDTopAppBar:
+            title: "Saved Questions"
+            left_action_items: [["arrow-left", lambda x: app.go_home()]]
+            elevation: 0
+        ScrollView:
+            MDList:
+                id: bookmarks_list
+                padding: dp(10)
+
+<StatsScreen>:
+    name: 'stats'
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1, 1, 1, 1
+        MDTopAppBar:
+            title: "Your Progress"
+            left_action_items: [["arrow-left", lambda x: app.go_home()]]
+            elevation: 0
+        ScrollView:
+            MDList:
+                id: stats_list
+                padding: dp(10)
+
+<StudyScreen>:
+    name: 'study'
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1, 1, 1, 1
+        MDTopAppBar:
+            title: "Study Mode"
+            left_action_items: [["arrow-left", lambda x: app.go_home()]]
+            elevation: 0
+        ScrollView:
+            MDList:
+                id: study_list
+                padding: dp(10)
+
+<SearchScreen>:
+    name: 'search'
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1, 1, 1, 1
+        MDTopAppBar:
+            title: "Search"
+            left_action_items: [["arrow-left", lambda x: app.go_home()]]
+            elevation: 0
+        MDBoxLayout:
+            padding: dp(10)
+            adaptive_height: True
+            MDTextField:
+                id: search_field
+                hint_text: "Search..."
+                mode: "rectangle"
+                icon_right: "magnify"
+                on_text_validate: app.perform_search(self.text)
+        ScrollView:
+            MDList:
+                id: search_results_list
+                padding: dp(10)
