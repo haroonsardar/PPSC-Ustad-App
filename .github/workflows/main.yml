@@ -6,34 +6,50 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04  # Use specific version for stability
 
     steps:
       - uses: actions/checkout@v2
 
-      # 1. System Tools Install
+      # 1. Sab se Zaroori Step: System Tools Install karna
+      # Ye wo tools hain jo Colab mein miss ho rahay thay
       - name: Install System Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y build-essential libtool autoconf automake libffi-dev libssl-dev
+          sudo apt-get install -y \
+            build-essential \
+            libtool \
+            libtool-bin \
+            autoconf \
+            automake \
+            libffi-dev \
+            libssl-dev \
+            zip \
+            unzip \
+            zlib1g-dev
 
-      # 2. Buildozer Install
-      - name: Install Buildozer
+      # 2. Python aur Buildozer Set karna
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+
+      - name: Install Buildozer & Cython
         run: |
           pip install --upgrade pip
           pip install buildozer cython==0.29.33
 
-      # 3. Clean Build Environment
-      - name: Clean Build
+      # 3. Cache saaf karna (Taake purani ghalti na dohraye)
+      - name: Clean Build Environment
         run: buildozer android clean
 
-      # 4. Start Building APK
+      # 4. APK Banana
       - name: Build APK
         run: buildozer android debug
 
-      # 5. Upload APK to GitHub
+      # 5. APK Upload karna
       - name: Upload Artifact
-        uses: actions/upload-artifact@v4  # Updated to v4
+        uses: actions/upload-artifact@v4
         with:
           name: PPSC-Ustad-APK
           path: bin/*.apk
