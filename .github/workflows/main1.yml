@@ -1,0 +1,29 @@
+name: Build APK via Docker
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Code Checkout
+      - uses: actions/checkout@v2
+
+      # 2. Build APK using Docker (Pre-configured Environment)
+      # Ye action automatically SDK/NDK/Licenses sambhal leta hai
+      - name: Build with Buildozer
+        uses: ArtemSBulgakov/buildozer-action-v1@release
+        id: buildozer
+        with:
+          command: buildozer android debug
+          buildozer_version: stable
+
+      # 3. Upload APK
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: PPSC-Ustad-APK
+          path: bin/*.apk
